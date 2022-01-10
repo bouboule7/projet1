@@ -39,5 +39,6 @@
             <span class="input-group-addon" id="basic-addon2">22</span>
         </div>
     </form>
+                                                             <a href="enregistrement.html">lien</a>                                                        
 </body>
 </html>
