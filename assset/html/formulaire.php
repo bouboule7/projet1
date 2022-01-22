@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" >
     <link rel="stylesheet" href="style.css">
 
-    <title>Document</title>
+    <title>Formulaire de saisie d'un prêt</title>
 </head>
 <body >
     <div class="mx-auto" style="width: 60vw;">
