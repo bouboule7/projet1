@@ -13,9 +13,9 @@
         <h2> WHERE EVERY BODY BECOME A BILLIONARY </h2>
     </header>
     <nav>
-        <a class="lin" href="asset/page/formulaire.php">Se registrer</a>
-        <a class="lin" href="asset/page/verification.php">Se connécter</a>
-        <a class="lin" href="asset/page/bank.php">$ Bank</a>
+        <a class="lin" href="assset/html/formulaire.php">Se registrer</a>
+        <a class="lin" href="assset/html/verification.php">Se connécter</a>
+        <a class="lin" href="assset/html/bank.php">$ Bank</a>
     </nav>
 </body>
 </html>
