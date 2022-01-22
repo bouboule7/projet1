@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <link rel="stylesheet" href="../bootstrap/css/bootstrap.css" ></liink>
+    <title>Document</title>
+</head>
+<body>
+    <form class="form-groupe" method='post' action='enregistrement.php'>
+        <label for='nom'>Responsable:</label>
+        <br/>
+        <select id='responsable' name='responsable' required>
+            <option value="responsable_1">Responsable 1</option>
+            <option value="responsable_2">Responsable 2</option>
+        </select>
+        <label for="montant">Montant prêt:</label>
+        
+        <div class="input-group">
+            <span class="input-group-addon" id="basic-addon1">@</span>
+            <input type="text" class="form-control" placeholder="User" aria-describedby="basic-addon1">
+            </div>
+            
+            <div class="input-group">
+            <input type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon2">
+            <span class="input-group-text" id="basic-addon2">@ example.com</span>
+            </div>
+            
+            <div class="input-group">
+            <span class="input-group-addon">&euro;</span>
+            <input type="text" class="form-control" aria-label="Amount (in EUR)">
+            <span class="input-group-addon">.00</span>
+            </div>
+
+
+        <br/><br/>
+        <input class="resset" type="reset"  >
+        <input class="resset" type="submit"  >        
+    </form>
+</body>
+</html>

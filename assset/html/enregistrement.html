@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" >
+    <title>Document</title>
+</head>
+<body>
+    <form method='post' action='enregistrement.php'>
+        <label for='nom'>Nom:</label>
+        <br/>
+        <input type='text' id='nom' name='nom' required/>
+        <br/>
+        <label for='prenom'>Prenom:</label>
+        <br/>
+        <input type='text' id='prenom' name='prenom' required/>
+        <br/>
+        <label  for='age'>Age:</label>
+        <br/>
+        <input class="afa" type='number' max='100' min='19' step='1' id='age' name='age' required/>
+        <br/>
+        <label for="sexe">Sexe</label><br />
+            <select name="sexe" id="sexe">
+                <option value="homme">masculin</option>
+                <option value="femme">femminin</option>
+            </select>
+        </label>
+        <br/>
+        <label  for='date'>Date de naissance:</label>
+        <br/>
+        <input class='date' type='date' id='date' name='date' required/>
+        <br/><br/>
+        <input class="resset" type="reset"  >
+        <input class="resset" type="submit"  >        
+    </form>
+</body>
+</html>
